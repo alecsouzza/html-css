@@ -1,0 +1,85 @@
+@charset  "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header > h2 {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.936), rgba(0, 0, 0, 0.726));
+
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.529);
+    margin: 0px 0px 0px 0px;
+
+    padding: 20px 20px 20px 20px;
+}
+
+
+main {
+    margin: 0px 200px 0px 200px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+
+}
+
+article > h2 {
+    font-family: 'Nabla', cursive;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(8, 104, 8);
+    background-image: linear-gradient(to right , rgba(30, 175, 30, 0.753) , white);
+}
+
+nav > a {   
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+    margin-right: 20px;
+
+
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+#extra > article > p {
+    background-color: aquamarine;
+}
+
+#extra > article > h3 {
+    background-color: rgba(0, 128, 0, 0.374);
+    color: green;
+
+    padding: 5px;
+}
+
+
+#extra > article > ul {
+    background-color: aquamarine;
+}
+
+footer {
+border-radius: 20px;
+}

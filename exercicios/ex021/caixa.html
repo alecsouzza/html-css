@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin :0px;
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+            background-color: azure;
+            border-radius: 15px;
+        }
+
+        nav {
+            background-color: darkgrey; 
+            padding: 3px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.378);
+
+  
+
+        }
+
+            nav > a {   
+                text-decoration: none;
+                color:darkgreen ;
+                font-weight: bold;
+                margin-right: 35px;
+
+
+
+            }
+
+            nav > a:hover {
+                text-decoration: underline;
+        }
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow:  2px 2px 3px 1px rgba(255, 0, 0, 0.43);
+        }
+
+        footer  {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 1px;
+        }
+        
+        article {
+            background-color: lightcyan;
+        }
+
+        article > aside {
+            background-color:darkgrey;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <selection id = "assuntos"></selection>
+        <selection id = "noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ipsum nesciunt doloribus dolore suscipit quas quae quibusdam laborum dolor illum aliquam nulla fugit ad, necessitatibus quam eius dolores iusto dolorum!</p>
+                <aside>
+                    artigo escrito por josé da silva
+                </aside>
+            </article>
+            <article>
+                <h2>Surge um novo mascote
+                </h2>
+                <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+                </p>
+
+            </article>
+        </selection>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Alex Souza.</p>
+    </footer>
+
+
+</body>
+</html>

@@ -30,6 +30,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
@@ -65,21 +66,46 @@ section{
     
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 
 section.normal {
     background-color: white;
     color:black;
+    background-attachment: fixed;
 }
 
 section.imagem{
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
+    box-shadow: 6px 6px 13px 0px black;
+   
     
 }
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.507);
     display: inline-block;
     padding: 7px;
+
+    text-shadow: 1px 1px 0px;
+
+}
+
+section#joaninha{
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section#livro{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 footer {
